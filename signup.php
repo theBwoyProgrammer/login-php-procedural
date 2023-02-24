@@ -11,7 +11,7 @@
                 <input type="text" name="email" placeholder="E-mail"><br><br>
                 <input type="text" name="uid" placeholder="Username"><br><br>
                 <input type="password" name="pwd" placeholder="Password"><br><br>
-                <input type="password" name="pwdrepeat" placeholder="Confirm password"><br><br>
+                <input type="password" name="pwdRepeat" placeholder="Confirm password"><br><br>
                 <button type="submit" name="submit">Signup</button>
             </form>
     </section>
