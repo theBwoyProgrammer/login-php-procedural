@@ -7,13 +7,13 @@
             <h1>Sign Up</h1>
             
             <form action="includes/signup.inc.php" method="post">
-                <input type="text" name="username" placeholder="Username"><br><br>
+                <input type="text" name="name" placeholder="Full name"><br><br>
                 <input type="text" name="email" placeholder="E-mail"><br><br>
-                <input type="password" name="password" placeholder="Password"><br><br>
-                <input type="password" name="password2" placeholder="Confirm password"><br><br>
-                <button type="submit" name="signup-submit">Signup</button>
+                <input type="text" name="uid" placeholder="Username"><br><br>
+                <input type="password" name="pwd" placeholder="Password"><br><br>
+                <input type="password" name="pwdrepeat" placeholder="Confirm password"><br><br>
+                <button type="submit" name="submit">Signup</button>
             </form>
-            <a href="reset-password.php">Forgot Your Password?</a>
     </section>
    
 <?php
